@@ -1,0 +1,37 @@
+body{
+    background-color: gray;
+}
+#header{
+    background-color:orange;
+}
+#navbar{
+    background-color: plum;
+}
+#navbar ul{
+    list-style: none;
+}
+#navbar ul li{
+    display:inline-block;
+}
+#navbar ul li a{
+    text-decoration: none;
+    margin:20px;
+    color: black;
+}
+#content{
+    background-color: white;
+}
+#sidebar{
+    background-color: aqua;
+}
+#sidebar ul{
+    list-style-type: none;
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer{
+    background-color: orange;
+}

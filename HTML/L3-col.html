@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/bootstrap.css" />
+    <script src="/JS/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <!-- here within one row we 3 cols then the next three will be in the next and so on-->
+      <div class="row row-cols-3" style="border: 2px solid red">
+        <div class="col" style="border: 2px solid black">COL1</div>
+        <div class="col" style="border: 2px solid black">COL2</div>
+        <div class="col" style="border: 2px solid black">COL3</div>
+        <div class="col" style="border: 2px solid black">COL4</div>
+        <div class="col" style="border: 2px solid black">COL5</div>
+        <div class="col" style="border: 2px solid black">COL6</div>
+        <div class="col" style="border: 2px solid black">COL7</div>
+        <div class="col" style="border: 2px solid black">COL8</div>
+      </div>
+      <!-- Here all 8 columns will be in a single line -->
+      <div class="row" style="border: 2px solid black">
+        <div class="col" style="border: 2px solid red">COL1</div>
+        <div class="col" style="border: 2px solid red">COL2</div>
+        <div class="col" style="border: 2px solid red">COL3</div>
+        <div class="col" style="border: 2px solid red">COL4</div>
+        <div class="col" style="border: 2px solid red">COL5</div>
+        <div class="col" style="border: 2px solid red">COL6</div>
+        <div class="col" style="border: 2px solid red">COL7</div>
+        <div class="col" style="border: 2px solid red">COL8</div>
+      </div>
+
+      <!-- Here initially all cols will be in the same row but when size below that you
+       specified in the reached then the those specific columns will take 100% width of 
+       the row. 
+
+       Below is a example where the class of col3 and col 5 is set to col-md which means
+        that when the size become less than medium then the width of these two will be set
+        to 100%
+        look col4 is between col3 and col5 as column to its left and right want 100% wudth
+        then it will not have any column to its left and right so it will also get 100% 
+        width....
+        all happen when the width <Medium size 
+      -->
+      <div class="row" style="border: 2px solid black">
+        <div class="col" style="border: 2px solid red">COL1</div>
+        <div class="col" style="border: 2px solid red">COL2</div>
+        <div class="col-md" style="border: 2px solid red">COL3</div>
+        <div class="col" style="border: 2px solid red">COL4</div>
+        <div class="col-md" style="border: 2px solid red">COL5</div>
+        <div class="col" style="border: 2px solid red">COL6</div>
+        <div class="col" style="border: 2px solid red">COL7</div>
+        <div class="col" style="border: 2px solid red">COL8</div>
+      </div>
+    </div>
+  </body>
+</html>
